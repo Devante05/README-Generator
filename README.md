@@ -1,11 +1,8 @@
 
-
-// function to generate markdown for README
-const generateMarkdown = (answers) =>`
-  ### ${answers.name}
+  ### The best project
 
   ## About The Project
-  ${answers.about}
+  This project was built for the purpose of making the world a better place!
   
   <!-- [!]() -->
   <!-- [!]() -->
@@ -13,25 +10,25 @@ const generateMarkdown = (answers) =>`
   
   
   ### Built With
-  ${answers.built}
+  This project uses Javascript,and Nodejs 
   
   
   ### Getting Started
 
   ## Prerequisites
-  ${answers.prerequisites}
+  inquirer, fs , util
 
   
   ## Installation
-  ${answers.installation}
+  https://github.com/Devante05/README-Generator.git
 
   
   ## Usage
-  ${answers.usage}
+  This project could be used to service every human on the face of the Earth.
 
   
   ## Contributing
-  ${answers.contributing}
+  Fork thew repo and submit a PR!
 
   
   ## License
@@ -41,7 +38,3 @@ const generateMarkdown = (answers) =>`
   https://www.linkedin.com/in/devanté-williams-73b69b11a
 
   williams.devante05@gmail.com
-`
-
-
-module.exports = generateMarkdown;
