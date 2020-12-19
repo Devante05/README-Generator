@@ -2,9 +2,9 @@
 
 // function to generate markdown for README
 const generateMarkdown = (answers) =>`
-  ### ${answers.name}
+  ###* ${answers.name}*
 
-  ## About The Project
+  ##* About The Project*
   ${answers.about}
   
   <!-- [!]() -->
@@ -12,32 +12,32 @@ const generateMarkdown = (answers) =>`
   <!-- [!]() -->
   
   
-  ### Built With
+  ###* Built With*
   ${answers.built}
   
   
-  ### Getting Started
+  ###* Getting Started*
 
-  ## Prerequisites
+  ##* Prerequisites*
   ${answers.prerequisites}
 
   
-  ## Installation
+  ##* Installation*
   ${answers.installation}
 
   
-  ## Usage
+  ##* Usage*
   ${answers.usage}
 
   
-  ## Contributing
+  ##* Contributing*
   ${answers.contributing}
 
   
-  ## License
+  ##* License*
     MIT
   
-  ## Contact
+  ##* Contact*
   https://www.linkedin.com/in/devanté-williams-73b69b11a
 
   williams.devante05@gmail.com
